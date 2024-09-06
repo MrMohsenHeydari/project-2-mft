@@ -1,13 +1,291 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 @font-face {
     font-family: IranYekanMedium;
     src: url(./Assets/Font/IranYekanwebMedium.woff);
 }
+
 @font-face {
     font-family: IranYekanRegular;
     src: url(./Assets/Font/IranYekanwebRegular.woff2);
+}
+
+@font-face {
+    font-family: IranYekanBold;
+    src: url(./Assets/Font/IranYekanwebBold.woff2);
+}
+
+@font-face {
+    font-family: IranYekanExtraBold;
+    src: url(./Assets/Font/IranYekanwebExtraBold.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow: hidden;
+}
+
+div.menu {
+    border-bottom: 2px dotted rgb(229, 229, 229);
+}
+
+a.nav-link {
+    color: black;
+    font-family: IranYekanBold;
+}
+
+a.nav-link:hover {
+    color: darkgrey;
+}
+
+div.mainbanner {
+    border-bottom: 3px dotted rgb(229, 229, 229);
+    padding-bottom: 15px;
+}
+
+div.row>div.left {
+    background-image: url(./Assets/IMG/MainBanner/left-banner-image.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+div.left>h4 {
+    font-family: IranYekanExtraBold;
+    font-size: 50px;
+    color: white;
+    margin: 10px 0px;
+}
+
+div.left>span {
+    font-family: IranYekanRegular;
+    font-size: 20px;
+    color: white;
+    margin: 10px 0px;
+}
+
+div.left>a {
+    text-decoration: none;
+    border: 1px solid #fff;
+    width: 22%;
+    color: white;
+    font-family: IranYekanRegular;
+    font-size: 15px;
+    margin: 20px 16px;
+    transition: 500ms;
+}
+
+div.left>a:hover {
+    background-color: white;
+    color: black;
+    transition: 500ms;
+}
+
+div.row>div.first-thumb {
+    width: 48%;
+    background-image: url(./Assets/IMG/MainBanner/baner-right-image-01.jpg);
+    height: 300px;
+    font-family: IranYekanRegular;
+    color: #fff;
+    margin: 0px 5px;
+}
+
+div.row>div.first-thumb>h4 {
+    margin-top: 30%;
+    overflow: hidden;
+}
+
+div.row>div.twice-thumb {
+    width: 48%;
+    background-image: url(./Assets/IMG/MainBanner/baner-right-image-02.jpg);
+    height: 300px;
+    font-family: IranYekanRegular;
+    color: #fff;
+    margin: 0px 5px;
+}
+
+div.row>div.twice-thumb>h4 {
+    margin-top: 30%;
+    overflow: hidden;
+}
+
+div.row>div.third-thumb {
+    width: 48%;
+    background-image: url(./Assets/IMG/MainBanner/baner-right-image-04.jpg);
+    height: 280px;
+    font-family: IranYekanRegular;
+    color: #fff;
+    margin: 20px 5px;
+}
+
+div.row>div.third-thumb>h4 {
+    margin-top: 40%;
+    overflow: hidden;
+}
+
+div.row>div.forth-thumb {
+    width: 48%;
+    background-image: url(./Assets/IMG/MainBanner/baner-right-image-03.jpg);
+    height: 280px;
+    font-family: IranYekanRegular;
+    color: #fff;
+    margin: 20px 5px;
+}
+
+div.row>div.forth-thumb>h4 {
+    margin-top: 40%;
+    overflow: hidden;
+}
+
+div.men,
+div.woman,
+div.kids,
+div.explore {
+    padding: 15px 40px;
+
+}
+
+div.men>h2,
+div.woman>h2,
+div.kids>h2 {
+    overflow: hidden;
+    font-family: IranYekanExtraBold;
+    font-size: 30px;
+}
+
+div.men>span,
+div.woman>span,
+div.kids>span {
+    font-family: IranYekanRegular;
+    color: dimgrey;
+    font-size: 15px;
+}
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+    padding: 0px 50px;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div.card-body {
+    font-family: IranYekanBold;
+}
+
+div.mencard,
+div.womancard,
+div.kidscard {
+    border-bottom: 3px dotted rgb(229, 229, 229);
+    padding-bottom: 60px;
+}
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div.explore>div.leftexplore>h2 {
+    overflow: hidden;
+    font-family: IranYekanBold;
+}
+
+div.explore>div.leftexplore>span,
+p {
+    font-family: IranYekanRegular;
+    font-size: 15px;
+    color: rgb(170, 170, 170);
+}
+
+div.explore>div.leftexplore>div.quote>p {
+    font-family: IranYekanRegular;
+    font-size: 15px;
+    color: black;
+}
+
+div.explore>div.leftexplore>a {
+    text-decoration: none;
+    border: 1px solid black;
+    width: 22%;
+    color: black;
+    font-family: IranYekanRegular;
+    font-size: 15px;
+    margin: 20px 0px;
+    transition: 500ms;
+}
+
+div.explore>div.leftexplore>a:hover {
+    background-color: rgb(42, 42, 42);
+    ;
+    color: white;
+    transition: 500ms;
+}
+
+div.rightexplore>div.row>div.leather>h4,
+div.rightexplore>div.row>div.leather>span,
+div.rightexplore>div.row>div.differenttype>h4,
+div.rightexplore>div.row>div.differenttype>span {
+    overflow: hidden;
+    font-family: IranYekanBold;
 }
