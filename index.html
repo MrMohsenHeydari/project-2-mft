@@ -10,38 +10,343 @@
 </head>
 
 <body>
-    <!-- start Menu -->
-    <div class="menu">
+    <!-- Start Menu -->
+    <div class="menu d-flex justify-content-evenly p-4 align-items-center gap-5 sticky-top bg-white">
         <div class="nav">
             <ul class="nav nav-pills">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">خانه</a>
+                    <a class="nav-link" aria-current="page" href="./index.html">خانه</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">آقایان</a>
+                    <a class="nav-link" aria-current="page" href="#men">آقایان</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">بانوان</a>
+                    <a class="nav-link" aria-current="page" href="#woman">بانوان</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">کودکان</a>
+                    <a class="nav-link" aria-current="page" href="#kids">کودکان</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                         aria-expanded="false">برگه ها</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">محصولات</a></li>
-                        <li><a class="dropdown-item" href="#">درباره ما</a></li>
-                        <li><a class="dropdown-item" href="#">تماس با ما</a></li>
+                        <li><a class="dropdown-item" href="./Pages/Product.html">محصولات</a></li>
+                        <li><a class="dropdown-item" href="./Pages/AboutUs.html">درباره ما</a></li>
+                        <li><a class="dropdown-item" href="./Pages/ContactUs.html">تماس با ما</a></li>
 
                     </ul>
                 </li>
             </ul>
         </div>
         <div class="logo">
+            <img src="./Assets/IMG/logo/logo.png" alt="">
         </div>
     </div>
-    <!-- end Menu -->
+    <!-- End Menu -->
+    <!-- start Main Banner -->
+    <div class="mainbanner row flex-row-reverse m-2 mt-4">
+        <div class="left col-lg-6 p-5 align-content-center">
+            <h4 class="p-3 mt-5">ما هگزا شاپ هستیم</h4>
+            <span class="p-3">قالب HTML5 عالی، تمیز و خلاقانه</span>
+            <a href="" class="border-1 d-block p-3">اکنون خرید کنید</a>
+
+        </div>
+        <div class="right col-lg-6 ">
+            <div class="row flex-wrap ">
+                <div class="col-lg-6 first-thumb p-5 ">
+                    <h4 class="text-center">بانوان</h4>
+                    <span class="d-block text-center">بهترین لباس ها برای بانوان</span>
+                </div>
+                <div class="col-lg-6 twice-thumb p-5">
+                    <h4 class="text-center">آقایان</h4>
+                    <span class="d-block text-center">بهترین لباس ها برای آقایان</span>
+                </div>
+                <div class="col-lg-6 third-thumb">
+                    <h4 class="text-center">اکسسوری</h4>
+                    <span class="d-block text-center">بهترین اکسسوری های ترند</span>
+                </div>
+                <div class="col-lg-6 forth-thumb">
+                    <h4 class="text-center">کودکان</h4>
+                    <span class="d-block text-center">بهترین لباس ها برای کوذکان</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Main Banner -->
+    <!-- Start Men Area -->
+    <div class="men" id="men">
+        <h2 class="mt-4">جدیدترین لباس های آقایان</h2>
+        <span>جزئیات چیزی است که هگزاشاپ را از دیگر تم ها متمایز میکند</span>
+    </div>
+    <div class="mencard">
+        <swiper-container class="mySwiper" init="false">
+            <swiper-slide>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/IMG/Mens/left-banner-image.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">مدل کژوال</h5>
+                        <p class="card-text fs-6 mt-3">150.00 دلار</p>
+                        <a href="#" class="btn btn-dark text-light fs-6">افزودن به سبد خرید</a>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/IMG/Mens/men-02.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">مدل اسپورت</h5>
+                        <p class="card-text fs-6 mt-3">90.00 دلار</p>
+                        <a href="#" class="btn btn-dark text-light fs-6">افزودن به سبد خرید</a>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/IMG/Mens/men-01.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">مدل کلاسیک</h5>
+                        <p class="card-text fs-6 mt-3">120.00 دلار</p>
+                        <a href="#" class="btn btn-dark text-light fs-6">افزودن به سبد خرید</a>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/IMG/Mens/left-banner-image.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">مدل کژوال</h5>
+                        <p class="card-text fs-6 mt-3">150.00 دلار</p>
+                        <a href="#" class="btn btn-dark text-light fs-6">افزودن به سبد خرید</a>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/IMG/Mens/men-02.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">مدل اسپورت</h5>
+                        <p class="card-text fs-6 mt-3">90.00 دلار</p>
+                        <a href="#" class="btn btn-dark text-light fs-6">افزودن به سبد خرید</a>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/IMG/Mens/men-01.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">مدل کلاسیک</h5>
+                        <p class="card-text fs-6 mt-3">120.00 دلار</p>
+                        <a href="#" class="btn btn-dark text-light fs-6">افزودن به سبد خرید</a>
+                    </div>
+                </div>
+            </swiper-slide>
+        </swiper-container>
+    </div>
+    <!-- End Men Area   -->
+    <!-- Start Woman Area -->
+    <div class="woman" id="woman">
+        <h2 class="mt-4">جدیدترین لباس های بانوان</h2>
+        <span>جزئیات چیزی است که هگزاشاپ را از دیگر تم ها متمایز میکند</span>
+    </div>
+    <div class="womancard">
+        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="3"
+            space-between="10" free-mode="true">
+            <swiper-slide>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/IMG/woman/women-03.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">کالکشن کلاسیک</h5>
+                        <p class="card-text fs-6 mt-3">130.00 دلار</p>
+                        <a href="#" class="btn btn-dark text-light fs-6">افزودن به سبد خرید</a>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/IMG/woman/women-02.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ست کلاسیک</h5>
+                        <p class="card-text fs-6 mt-3">45.00 دلار</p>
+                        <a href="#" class="btn btn-dark text-light fs-6">افزودن به سبد خرید</a>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/IMG/woman/women-01.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ست پاییزه </h5>
+                        <p class="card-text fs-6 mt-3">120.00 دلار</p>
+                        <a href="#" class="btn btn-dark text-light fs-6">افزودن به سبد خرید</a>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/IMG/woman/women-03.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">کالکشن کلاسیک</h5>
+                        <p class="card-text fs-6 mt-3">130.00 دلار</p>
+                        <a href="#" class="btn btn-dark text-light fs-6">افزودن به سبد خرید</a>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>><div class="card" style="width: 18rem;">
+                    <img src="./Assets/IMG/woman/women-02.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ست کلاسیک</h5>
+                        <p class="card-text fs-6 mt-3">45.00 دلار</p>
+                        <a href="#" class="btn btn-dark text-light fs-6">افزودن به سبد خرید</a>
+                    </div>
+                </div></swiper-slide>
+            <swiper-slide>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/IMG/woman/women-03.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">کالکشن کلاسیک</h5>
+                        <p class="card-text fs-6 mt-3">130.00 دلار</p>
+                        <a href="#" class="btn btn-dark text-light fs-6">افزودن به سبد خرید</a>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/IMG/woman/women-01.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ست پاییزه </h5>
+                        <p class="card-text fs-6 mt-3">120.00 دلار</p>
+                        <a href="#" class="btn btn-dark text-light fs-6">افزودن به سبد خرید</a>
+                    </div>
+                </div>
+            </swiper-slide>
+        </swiper-container>
+    </div>
+    <!-- End Woman Area -->
+    <!-- Start Kids Area -->
+    <div class="kids" id="kids">
+        <h2 class="mt-4">جدیدترین لباس های کودکان</h2>
+        <span>جزئیات چیزی است که هگزاشاپ را از دیگر تم ها متمایز میکند</span>
+    </div>
+    <div class="kidscard">
+        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="0"
+            slides-per-view="4">
+            <swiper-slide>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/IMG/kids/kid-01.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ست تحصیلی</h5>
+                        <p class="card-text fs-6 mt-3">130.00 دلار</p>
+                        <a href="#" class="btn btn-dark text-light fs-6">افزودن به سبد خرید</a>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/IMG/kids/kid-02.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ست تابستانی</h5>
+                        <p class="card-text fs-6 mt-3">130.00 دلار</p>
+                        <a href="#" class="btn btn-dark text-light fs-6">افزودن به سبد خرید</a>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/IMG/kids/kid-03.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ست کلاسیک</h5>
+                        <p class="card-text fs-6 mt-3">30.00 دلار</p>
+                        <a href="#" class="btn btn-dark text-light fs-6">افزودن به سبد خرید</a>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/IMG/kids/kid-01.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ست تحصیلی</h5>
+                        <p class="card-text fs-6 mt-3">80.00 دلار</p>
+                        <a href="#" class="btn btn-dark text-light fs-6">افزودن به سبد خرید</a>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/IMG/kids/kid-02.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ست تابستانی</h5>
+                        <p class="card-text fs-6 mt-3">12.00 دلار</p>
+                        <a href="#" class="btn btn-dark text-light fs-6">افزودن به سبد خرید</a>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/IMG/kids/kid-03.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ست کلاسیک</h5>
+                        <p class="card-text fs-6 mt-3">30.00 دلار</p>
+                        <a href="#" class="btn btn-dark text-light fs-6">افزودن به سبد خرید</a>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/IMG/kids/kid-01.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ست تحصیلی</h5>
+                        <p class="card-text fs-6 mt-3">80.00 دلار</p>
+                        <a href="#" class="btn btn-dark text-light fs-6">افزودن به سبد خرید</a>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="card" style="width: 18rem;">
+                    <img src="./Assets/IMG/kids/kid-02.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ست تابستانی</h5>
+                        <p class="card-text fs-6 mt-3">12.00 دلار</p>
+                        <a href="#" class="btn btn-dark text-light fs-6">افزودن به سبد خرید</a>
+                    </div>
+                </div>
+            </swiper-slide>
+        </swiper-container>
+    </div>
+    <!-- End Kids Area -->
+    <!-- Start Explore Area -->
+    <div class="explore row flex-row-reverse d-flex">
+        <div class="leftexplore col-lg-6">
+            <h2 class="mt-5">محصولات ما را کاوش کنید</h2>
+            <span>شما مجاز به استفاده از این قالب HTML CSS HexaShop هستید. می توانید با خیال راحت این طرح را اصلاح یا
+                ویرایش کنید. شما می توانید این قالب را به عنوان هر نوع تم CMS تجارت الکترونیک به دلخواه تبدیل
+                کنید.</span>
+            <div class="quote">
+                <i class="fa-solid fa-quote-left"></i>
+                <p class="mt-3">شما مجاز به توزیع مجدد این فایل ZIP قالب در هیچ وب سایت دیگری نیستید.</p>
+            </div>
+            <p>5 صفحه در این قالب HexaShop گنجانده شده است و ما آن را به صورت کاملا رایگان در وب سایت TemplateMo خود در
+                اختیار شما قرار می دهیم. هزینه های توسعه وب برای ما وجود دارد.</p>
+            <p>اگر این قالب برای وب سایت یا کسب و کار شما مفید است، لطفاً از طریق PayPal کمی از ما حمایت کنید. لطفا به
+                دوستان خود نیز در مورد وب سایت عالی ما اطلاع دهید. متشکرم.</p>
+            <a class="border-1 d-block p-3 text-center" href="">جستجوی بیشتر</a>
+        </div>
+        <div class="rightexplore col-lg-6">
+            <div class="row flex-wrap flex-row-reverse d-flex">
+                <div class="leather col-lg-6 justify-content-center align-content-center">
+                    <h4 class="text-center">کیف های چرمی</h4>
+                    <span class="d-block text-center mt-4">کالکشن های اخیر</span>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./Assets/IMG/Explore/explore-image-01.jpg" alt="">
+                </div>
+                <div class="col-lg-6"><img src="./Assets/IMG/Explore/explore-image-02.jpg" alt=""></div>
+                <div class="differenttype col-lg-6 justify-content-center align-content-center"><h4 class="text-center">انواع مختلف</h4>
+                    <span class="d-block text-center mt-4">بیش از 304 محصول</span></div>
+            </div>
+        </div>
+    </div>
+    <!-- End Explore Area -->
+
 
 
 
@@ -49,6 +354,41 @@
 
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <script>
+        const swiperEl = document.querySelector('swiper-container')
+        Object.assign(swiperEl, {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                clickable: true,
+            },
+            breakpoints: {
+                "@0.00": {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                "@0.75": {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                },
+                "@1.00": {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
+                },
+                "@1.50": {
+                    slidesPerView: 4,
+                    spaceBetween: 0,
+                },
+            },
+        });
+
+        swiperEl.initialize();
+    </script>
+
 </body>
 
 </html>
