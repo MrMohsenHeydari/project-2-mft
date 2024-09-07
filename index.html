@@ -7,6 +7,9 @@
     <title>Project-2-MFT</title>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -315,14 +318,15 @@
     <!-- End Kids Area -->
     <!-- Start Explore Area -->
     <div class="explore row flex-row-reverse d-flex">
-        <div class="leftexplore col-lg-6">
-            <h2 class="mt-5">محصولات ما را کاوش کنید</h2>
+        <div class="leftexplore col-lg-6 d-flex flex-column justify-content-around">
+            <h2 class="mt-4">محصولات ما را کاوش کنید</h2>
             <span>شما مجاز به استفاده از این قالب HTML CSS HexaShop هستید. می توانید با خیال راحت این طرح را اصلاح یا
                 ویرایش کنید. شما می توانید این قالب را به عنوان هر نوع تم CMS تجارت الکترونیک به دلخواه تبدیل
                 کنید.</span>
-            <div class="quote">
-                <i class="fa-solid fa-quote-left"></i>
-                <p class="mt-3">شما مجاز به توزیع مجدد این فایل ZIP قالب در هیچ وب سایت دیگری نیستید.</p>
+            <div class="quote d-flex justify-content-start align-items-baseline">
+                <i class="fa-solid fa-quote-left d-inline-block"></i>
+                <p class="mt-2 d-inline-block mx-2">شما مجاز به توزیع مجدد این فایل ZIP قالب در هیچ وب سایت دیگری
+                    نیستید.</p>
             </div>
             <p>5 صفحه در این قالب HexaShop گنجانده شده است و ما آن را به صورت کاملا رایگان در وب سایت TemplateMo خود در
                 اختیار شما قرار می دهیم. هزینه های توسعه وب برای ما وجود دارد.</p>
@@ -330,24 +334,184 @@
                 دوستان خود نیز در مورد وب سایت عالی ما اطلاع دهید. متشکرم.</p>
             <a class="border-1 d-block p-3 text-center" href="">جستجوی بیشتر</a>
         </div>
-        <div class="rightexplore col-lg-6">
+        <div class="rightexplore col-lg-6 ">
             <div class="row flex-wrap flex-row-reverse d-flex">
-                <div class="leather col-lg-6 justify-content-center align-content-center">
-                    <h4 class="text-center">کیف های چرمی</h4>
-                    <span class="d-block text-center mt-4">کالکشن های اخیر</span>
+                <div class=" col-lg-5 justify-content-center align-content-center mb-5">
+                    <div class="leather">
+                        <h4 class="text-center">کیف های چرمی</h4>
+                        <span class="d-block text-center mt-4">کالکشن های اخیر</span>
+                    </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="img-1 col-lg-5 mb-5">
                     <img src="./Assets/IMG/Explore/explore-image-01.jpg" alt="">
                 </div>
-                <div class="col-lg-6"><img src="./Assets/IMG/Explore/explore-image-02.jpg" alt=""></div>
-                <div class="differenttype col-lg-6 justify-content-center align-content-center"><h4 class="text-center">انواع مختلف</h4>
-                    <span class="d-block text-center mt-4">بیش از 304 محصول</span></div>
+                <div class="img-2 col-lg-5"><img src="./Assets/IMG/Explore/explore-image-02.jpg" alt=""></div>
+                <div class=" col-lg-5 justify-content-center align-content-center">
+                    <div class="type ">
+                        <h4 class="text-center">انواع مختلف</h4>
+                        <span class="d-block text-center mt-4">بیش از 304 محصول</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <!-- End Explore Area -->
+    <!-- Start Social Media Area -->
+    <div class="social" id="social">
+        <h2 class="mt-4">سوشال مدیا</h2>
+        <span>جزئیات چیزی است که هگزاشاپ را از دیگر تم ها متمایز میکند</span>
+    </div>
+    <div class="container mt-5">
+        <div class="row-social d-flex flex-row-reverse">
+            <div class="col-2"><img src="./Assets/IMG/Social Media/instagram-01.jpg" alt=""></div>
+            <div class="col-2"><img src="./Assets/IMG/Social Media/instagram-02.jpg" alt=""></div>
+            <div class="col-2"><img src="./Assets/IMG/Social Media/instagram-03.jpg" alt=""></div>
+            <div class="col-2"><img src="./Assets/IMG/Social Media/instagram-04.jpg" alt=""></div>
+            <div class="col-2"><img src="./Assets/IMG/Social Media/instagram-05.jpg" alt=""></div>
+            <div class="col-2"><img src="./Assets/IMG/Social Media/instagram-06.jpg" alt=""></div>
+        </div>
+
+    </div>
+    <!-- End Social Media Area -->
+    <!-- Start Subscribe Area -->
+    <div class="subscribe pb-5">
+        <div class="container-subscribe">
+            <div class="row mt-5">
+                <div class="col-7">
+                    <div class="headingsubscribe d-flex flex-wrap">
+                        <h2 class="lh-base">با عضویت در خبرنامه از تخفیف 30 درصدی بهره مند شوید</h2>
+                        <span>جزئیات چیزی است که هگزاشاپ را از دیگر تم ها متمایز میکند</span>
+                    </div>
+                    <form action="">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <fieldset>
+                                    <input type="text" name="name" placeholder="نام و نام خانوادگی" required>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-5">
+                                <fieldset>
+                                    <input type="text" name="name" placeholder=" آدرس ایمیل" required>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-2">
+                                <fieldset>
+                                    <button type="submit">
+                                        <i class="fa-solid fa-paper-plane"></i>
+                                    </button>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-4 mt-1">
+                    <div class="row">
+                        <div class="col-6">
+                            <ul>
+                                <li class="smallhead">آدرس فروشگاه :<br>
+                                    <span>ایالات متحده- ساحل سانی - FL33160</span>
+                                </li>
+                                <li class="smallhead mt-4">شماره تماس : <br>
+                                    <span>010-020-0340</span>
+                                </li>
+                                <li class="smallhead mt-4">آدرس دفتر: <br>
+                                    <span>ساحل میامی شمالی</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul>
+                                <li class="smallhead">ساعت کاری فروشگاه :<br>
+                                    <span>هر روز از 7:30 الی 21:30</span>
+                                </li>
+                                <li class="smallhead mt-5"> ایمیل : <br>
+                                    <span>info@company.com</span>
+                                </li>
+                                <li class="smallhead mt-4">سوشال مدیا : <br>
+                                    <span><a href="#">Facebook</a>
+                                        <a href="#">Instagram</a>
+                                        <a href="#">Behance</a>
+                                        <a href="#">Linkedin</a>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Subscribe Area -->
+    <!-- Start Footer -->
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="first-item">
+                        <div class="logo"><img src="./Assets/IMG/logo/white-logo.png" alt=""></div>
+                        <ul>
+                            <li class="mt-3"><a class="link" href="#">ایالات متحده- ساحل سانی - FL33160</a></li>
+                            <li class="mt-3"><a class="link" href="#">hexashop@company.com</a></li>
+                            <li class="mt-3"><a class="link" href="#">010-020-0340</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="links">
+                        <h4>دسته بندی و فروشگاه</h4>
+                        <ul>
+                            <li class="mt-3"><a class="link" href="#">فروشگاه آقایان</a></li>
+                            <li class="mt-3"><a class="link" href="#">فروشگاه بانوان</a></li>
+                            <li class="mt-3"><a class="link" href="#">فروشگاه کودکان</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-lg-3">
+                    <div class="links">
+                        <h4>لینک های مفید</h4>
+                    <ul>
+                        <li class="mt-3"><a class="link" href="#">صفحه خانه</a></li>
+                        <li class="mt-3"><a class="link" href="#">درباره ما</a></li>
+                        <li class="mt-3"><a class="link" href="#">سوالات متداول</a></li>
+                        <li class="mt-3"><a class="link" href="#">تماس با ما</a></li>
+                    </ul>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-3">
+                    <div class="links">
+                        <h4>اطلاعات بیشتر</h4>
+                    <ul>
+                        <li class="mt-3"><a class="link" href="#">راهنمایی</a></li>
+                        <li class="mt-3"><a class="link" href="#">سوالات متداول</a></li>
+                        <li class="mt-3"><a class="link" href="#">فروشگاه</a></li>
+                        <li class="mt-3"><a class="link" href="#">شناسه پیگیری</a></li>
+                    </ul>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-12">
+                    <div class="under-footer mt-4 pt-4">
+                        <p class="text-center lh-lg text-light">کلیه حقوق مادی و معنوی متعلق به هگزاشاپ است <br>
+                        دیزاین:<a href="">TemplateMo</a></p>
+                        <ul class="d-flex flex-row-reverse justify-content-evenly fs-4 w-25 mx-auto ">
+                            <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-behance"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
 
+        </div>
+
+
+    </footer>
+
+    <!-- End Footer -->
 
 
 
