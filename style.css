@@ -149,22 +149,29 @@ div.row>div.forth-thumb>h4 {
 div.men,
 div.woman,
 div.kids,
-div.explore {
-    padding: 15px 40px;
+div.explore,
+div.social,
+div.container,
+div.headingsubscribe,div.col-7>form {
+    padding: 15px 90px;
 
 }
 
 div.men>h2,
 div.woman>h2,
-div.kids>h2 {
+div.kids>h2,
+div.social>h2,
+div.headingsubscribe>h2 {
     overflow: hidden;
     font-family: IranYekanExtraBold;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 div.men>span,
 div.woman>span,
-div.kids>span {
+div.kids>span,
+div.social>span,
+div.headingsubscribe>span {
     font-family: IranYekanRegular;
     color: dimgrey;
     font-size: 15px;
@@ -199,7 +206,9 @@ div.card-body {
 
 div.mencard,
 div.womancard,
-div.kidscard {
+div.kidscard,
+div.explore,
+div.container{
     border-bottom: 3px dotted rgb(229, 229, 229);
     padding-bottom: 60px;
 }
@@ -277,15 +286,106 @@ div.explore>div.leftexplore>a {
 
 div.explore>div.leftexplore>a:hover {
     background-color: rgb(42, 42, 42);
-    ;
     color: white;
     transition: 500ms;
 }
 
-div.rightexplore>div.row>div.leather>h4,
-div.rightexplore>div.row>div.leather>span,
-div.rightexplore>div.row>div.differenttype>h4,
-div.rightexplore>div.row>div.differenttype>span {
+div.rightexplore {
+    padding: 40px;
+}
+
+div.rightexplore>div.row>div.col-lg-5>div.leather>h4,
+div.rightexplore>div.row>div.col-lg-5>div.leather>span,
+div.rightexplore>div.row>div.col-lg-5>div.type>h4,
+div.rightexplore>div.row>div.col-lg-5>div.type>span {
     overflow: hidden;
     font-family: IranYekanBold;
+}
+
+div.rightexplore>div.row>div.col-lg-5>div.leather,
+div.rightexplore>div.row>div.col-lg-5>div.type {
+    width: 100%;
+    height: 100%;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.rightexplore>div.row>div.img-1,
+div.rightexplore>div.row>div.img-2 {
+    display: flex;
+    justify-content: center;
+}
+form>div.row>div.col-lg-5>fieldset>input{
+    font-family: IranYekanRegular;
+    color: dimgrey;
+    font-size: 15px;
+    width: 100%;
+    text-align: justify;
+    padding: 10px 5px;
+}
+form>div.row>div.col-lg-2>fieldset>button{
+    border: none;
+    background-color: #2a2a2a;
+    padding: 10px;
+    
+}
+form>div.row>div.col-lg-2>fieldset>button>i{
+    border: none;
+    overflow: hidden;
+    font-size: 18px;
+    color: #fff;
+}
+div.subscribe>div.container-subscribe>div.row>div.col-4>div.row>div.col-6>ul>li.smallhead>span{
+    font-family: IranYekanRegular;
+    color: dimgrey;
+    font-size: 15px;
+}
+div.subscribe>div.container-subscribe>div.row>div.col-4>div.row>div.col-6>ul>li.smallhead{
+    font-family: IranYekanBold;
+    color: #000;
+    font-size:18px ;
+}
+div.subscribe>div.container-subscribe>div.row>div.col-4>div.row>div.col-6>ul>li.smallhead>span>a{
+    text-decoration: none;
+    color: dimgrey;
+    font-size:18px ;
+    transition: 500ms;
+}
+div.subscribe>div.container-subscribe>div.row>div.col-4>div.row>div.col-6>ul>li.smallhead>span>a:hover{
+    color: #000;
+    transition: 500ms;
+}
+footer{
+    background-color: #2a2a2a;
+    padding: 40px 100px 20px 100px;
+}
+footer>div.footer>div.row>div.col-lg-3>div.links>ul>li>a.link{
+    text-decoration: none;
+    color: #f8f8f8;
+    font-family: IranYekanMedium;
+    font-size: 14px;
+    
+}
+footer>div.footer>div.row>div.col-lg-3>div.first-item>ul>li>a.link{
+    text-decoration: none;
+    color: #f8f8f8;
+    font-family: IranYekanMedium;
+    font-size: 14px;
+
+    
+}
+footer>div.footer>div.row>div.col-lg-3>div.links>h4{
+    font-family: IranYekanBold;  
+    color: #f8f8f8;
+}
+footer>div.footer>div.row>div.col-lg-12>div.under-footer{
+    border-top: 0.5px solid rgba(250, 250, 250, 0.3);;
+}
+footer>div.footer>div.row>div.col-lg-12>div.under-footer>ul.d-flex>li>a>i.fa-brands{
+    color: #cff;
+}
+footer>div.footer>div.row>div.col-lg-12>div.under-footer>p>a{
+    color: #cff;
 }
