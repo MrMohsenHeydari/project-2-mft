@@ -359,7 +359,7 @@ div.subscribe>div.container-subscribe>div.row>div.col-4>div.row>div.col-6>ul>li.
 }
 footer{
     background-color: #2a2a2a;
-    padding: 40px 100px 20px 100px;
+    padding: 40px 100px 0px 100px;
 }
 footer>div.footer>div.row>div.col-lg-3>div.links>ul>li>a.link{
     text-decoration: none;
